@@ -2,6 +2,9 @@
 	background-color: #f9fafb;
 }
 
-.main-content main {
-	height: calc(100vh - 65px - 65px);
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.main-content main {
+		height: calc(100vh - 65px - 65px);
+	}
 }

@@ -21,10 +21,15 @@
 <body>
 	<div class="container-fluid">
 		<header class="row border-bottom">
-			<div class="header-logo col-md-2 border-right">
+			<div class="header-logo col-md-3 col-xl-2 border-right d-none d-md-block">
 				<h4 class="header__item">CodeSchool VN</h4>
 			</div>
-			<div class="header-toolbar d-flex justify-content-end col-md-10">
+			<div class="header-toolbar d-flex justify-content-end col-md-9 col-xl-10">
+				<span class="header__item mr-auto navbar-light d-block d-lg-none">
+					<button class="border-0 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</span>
 				<span class="header__item">
 					<i class="far fa-bell fa-lg"></i>
 					<sup><span class="badge badge-danger">3</span></sup>
@@ -40,7 +45,7 @@
 			</div>
 		</header>
 		<div class="row">
-			<div class="sidebar list-group list-group-flush col-md-2 border-right">
+			<div class="sidebar list-group list-group-flush col-lg-3 col-xl-2 px-0 border-right">
 					<a href="" class="list-group-item border-bottom-0">
 						<i class="fas fa-tachometer-alt fa-fw"></i> Dashboard
 					</a>
@@ -108,9 +113,9 @@
 						<i class="fas fa-cubes fa-fw"></i> More Levels
 					</a>
 			</div>
-			<div class="main-content col-md-10">
-				<main class="container-fluid py-4">
-					<div class="card shadow">
+			<div class="main-content col-12 col-lg-9 col-xl-10">
+				<main class="py-lg-4">
+					<div class="card shadow mt-4 mt-lg-0">
 						<div class="card-header text-white bg-dark">
 							Data Table
 						</div>
@@ -175,7 +180,7 @@
 						</div> <!-- .card-body -->
 					</div> <!-- .card -->
 				</main>
-				<footer class="border-top px-4">
+				<footer class="border-top p-4 mt-4">
 					Copyright © 2019 <a href="http://codeschool.vn" target="_blank" title="CodeSchool.VN">CodeSchool.VN</a>. All rights reserved.
 				</footer>
 			</div> <!-- .main-content -->
