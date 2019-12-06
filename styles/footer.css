@@ -1,0 +1,15 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+
+footer {
+	background-color: #FFFFFF;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 65px;
+	line-height: 65px;
+}

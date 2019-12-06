@@ -1,0 +1,7 @@
+.main-content {
+	background-color: #f9fafb;
+}
+
+.main-content main {
+	height: calc(100vh - 65px - 65px);
+}
